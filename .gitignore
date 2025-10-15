@@ -32,3 +32,4 @@ settings.xml
 !settings.xml.template
 !settings.xml.env-template
 
+/target/*
