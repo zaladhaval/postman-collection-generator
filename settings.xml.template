@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  GitHub Packages Maven Settings Template
+  
+  This file should be copied to ~/.m2/settings.xml (or %USERPROFILE%\.m2\settings.xml on Windows)
+  
+  IMPORTANT: Replace the following placeholders:
+  - YOUR_GITHUB_USERNAME: Your GitHub username (e.g., zaladhaval)
+  - YOUR_GITHUB_TOKEN: Your GitHub Personal Access Token (classic) with appropriate scopes
+  
+  Required Token Scopes:
+  - write:packages (for publishing packages)
+  - read:packages (for downloading/consuming packages)
+  - delete:packages (optional, for deleting packages)
+  
+  To create a Personal Access Token:
+  1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)
+  2. Click "Generate new token (classic)"
+  3. Select the required scopes mentioned above
+  4. Copy the generated token and replace YOUR_GITHUB_TOKEN below
+  
+  SECURITY NOTE: Never commit this file with actual credentials to version control!
+  Consider using environment variables for better security (see alternative below).
+-->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/zaladhaval/postman-collection-generator</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>YOUR_GITHUB_USERNAME</username>
+      <password>YOUR_GITHUB_TOKEN</password>
+    </server>
+  </servers>
+</settings>
+
