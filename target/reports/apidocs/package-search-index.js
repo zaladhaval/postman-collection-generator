@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.collection.creator.autoconfigure"},{"l":"com.collection.creator.config"},{"l":"com.collection.creator.model"},{"l":"com.collection.creator.service"}];updateSearchResults();
