@@ -11,14 +11,14 @@
 --release
 17
 -sourcepath
-'/home/dhaval/Development/projects/creator/src/main/java:/home/dhaval/Development/projects/creator/target/generated-sources/annotations'
+'/home/dhaval/Development/projects/postman-collection-generator/src/main/java:/home/dhaval/Development/projects/postman-collection-generator/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2025. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'/home/dhaval/Development/projects/creator/target/reports/apidocs'
+'/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs'
 -docencoding
 'UTF-8'
 -Xdoclint:none
@@ -78,22 +78,22 @@ com.collection.creator.config
 /home/dhaval/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar = 1740501792000
 /home/dhaval/.m2/repository/org/springframework/spring-core/6.2.11/spring-core-6.2.11.jar = 1760427597530
 /home/dhaval/.m2/repository/org/springframework/spring-jcl/6.2.11/spring-jcl-6.2.11.jar = 1760427599155
-/home/dhaval/Development/projects/creator/src/main/java = 1760510010000
-/home/dhaval/Development/projects/creator/target/generated-sources/annotations = 1760521585992
-/home/dhaval/Development/projects/creator/target/reports/apidocs/script.js = 1760521590752
-/home/dhaval/Development/projects/creator/target/reports/apidocs/search.js = 1760521590753
-/home/dhaval/Development/projects/creator/target/reports/apidocs/overview-tree.html = 1760521590721
-/home/dhaval/Development/projects/creator/target/reports/apidocs/index-all.html = 1760521590747
-/home/dhaval/Development/projects/creator/target/reports/apidocs/type-search-index.js = 1760521590735
-/home/dhaval/Development/projects/creator/target/reports/apidocs/element-list = 1760521590680
-/home/dhaval/Development/projects/creator/target/reports/apidocs/jquery-ui.overrides.css = 1760521590753
-/home/dhaval/Development/projects/creator/target/reports/apidocs/package-search-index.js = 1760521590735
-/home/dhaval/Development/projects/creator/target/reports/apidocs/module-search-index.js = 1760521590734
-/home/dhaval/Development/projects/creator/target/reports/apidocs/allpackages-index.html = 1760521590734
-/home/dhaval/Development/projects/creator/target/reports/apidocs/member-search-index.js = 1760521590735
-/home/dhaval/Development/projects/creator/target/reports/apidocs/allclasses-index.html = 1760521590732
-/home/dhaval/Development/projects/creator/target/reports/apidocs/overview-summary.html = 1760521590748
-/home/dhaval/Development/projects/creator/target/reports/apidocs/tag-search-index.js = 1760521590735
-/home/dhaval/Development/projects/creator/target/reports/apidocs/index.html = 1760521590722
-/home/dhaval/Development/projects/creator/target/reports/apidocs/help-doc.html = 1760521590751
-/home/dhaval/Development/projects/creator/target/reports/apidocs/stylesheet.css = 1760521590752
+/home/dhaval/Development/projects/postman-collection-generator/src/main/java = 1760510010000
+/home/dhaval/Development/projects/postman-collection-generator/target/generated-sources/annotations = 1760523363254
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/script.js = 1760523369300
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/search.js = 1760523369301
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/overview-tree.html = 1760523369252
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/index-all.html = 1760523369294
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/type-search-index.js = 1760523369275
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/element-list = 1760523369202
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/jquery-ui.overrides.css = 1760523369303
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/package-search-index.js = 1760523369275
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/module-search-index.js = 1760523369274
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/allpackages-index.html = 1760523369274
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/member-search-index.js = 1760523369275
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/allclasses-index.html = 1760523369271
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/overview-summary.html = 1760523369295
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/tag-search-index.js = 1760523369275
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/index.html = 1760523369254
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/help-doc.html = 1760523369299
+/home/dhaval/Development/projects/postman-collection-generator/target/reports/apidocs/stylesheet.css = 1760523369299
