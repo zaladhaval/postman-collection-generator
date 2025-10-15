@@ -58,8 +58,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+        server-id: github  # Value of the distributionManagement/repository/id field in pom.xml
+        server-username: GITHUB_ACTOR  # Environment variable for username
+        server-password: GITHUB_TOKEN  # Environment variable for token
 
     - name: Publish to GitHub Packages
       run: mvn --batch-mode deploy -DskipTests
       env:
+        GITHUB_ACTOR: ${{ github.actor }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
