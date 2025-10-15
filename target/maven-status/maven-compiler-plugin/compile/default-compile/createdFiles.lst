@@ -1,0 +1,14 @@
+com/collection/creator/model/Body.class
+com/collection/creator/autoconfigure/PostmanCollectionAutoConfiguration.class
+com/collection/creator/model/Item.class
+com/collection/creator/config/PostmanCollectionProperties$Collection.class
+com/collection/creator/model/PostmanRequest.class
+com/collection/creator/model/Raw.class
+com/collection/creator/service/PostmanCollectionService.class
+com/collection/creator/config/PostmanCollectionProperties.class
+com/collection/creator/model/Options.class
+com/collection/creator/config/PostmanCollectionProperties$Output.class
+com/collection/creator/config/PostmanCollectionProperties$Authorization.class
+com/collection/creator/model/Header.class
+com/collection/creator/model/Request.class
+com/collection/creator/model/Info.class

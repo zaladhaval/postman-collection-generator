@@ -1,0 +1,103 @@
+{
+  "groups": [
+    {
+      "name": "postman.collection.generator",
+      "type": "com.collection.creator.config.PostmanCollectionProperties",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties"
+    },
+    {
+      "name": "postman.collection.generator.authorization",
+      "type": "com.collection.creator.config.PostmanCollectionProperties$Authorization",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties",
+      "sourceMethod": "getAuthorization()"
+    },
+    {
+      "name": "postman.collection.generator.collection",
+      "type": "com.collection.creator.config.PostmanCollectionProperties$Collection",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties",
+      "sourceMethod": "getCollection()"
+    },
+    {
+      "name": "postman.collection.generator.output",
+      "type": "com.collection.creator.config.PostmanCollectionProperties$Output",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties",
+      "sourceMethod": "getOutput()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "postman.collection.generator.authorization.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable or disable adding authorization header to requests.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Authorization",
+      "defaultValue": true
+    },
+    {
+      "name": "postman.collection.generator.authorization.header-name",
+      "type": "java.lang.String",
+      "description": "Name of the authorization header.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Authorization",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "postman.collection.generator.authorization.header-type",
+      "type": "java.lang.String",
+      "description": "Type of the header.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Authorization",
+      "defaultValue": "text"
+    },
+    {
+      "name": "postman.collection.generator.authorization.header-value",
+      "type": "java.lang.String",
+      "description": "Value of the authorization header (supports Postman variables like {{token}}).",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Authorization",
+      "defaultValue": "{{logintoken}}"
+    },
+    {
+      "name": "postman.collection.generator.base-url",
+      "type": "java.lang.String",
+      "description": "Base URL to prepend to all API endpoints in the collection. This is used when calling generateCollection() method.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "postman.collection.generator.collection.name",
+      "type": "java.lang.String",
+      "description": "Name of the Postman collection.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Collection",
+      "defaultValue": "API Collection"
+    },
+    {
+      "name": "postman.collection.generator.collection.schema",
+      "type": "java.lang.String",
+      "description": "Postman collection schema version.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Collection",
+      "defaultValue": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    {
+      "name": "postman.collection.generator.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable or disable the Postman collection generator.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "postman.collection.generator.output.directory",
+      "type": "java.lang.String",
+      "description": "Directory where the collection file will be saved.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Output",
+      "defaultValue": ".\/"
+    },
+    {
+      "name": "postman.collection.generator.output.filename",
+      "type": "java.lang.String",
+      "description": "Name of the generated collection file.",
+      "sourceType": "com.collection.creator.config.PostmanCollectionProperties$Output",
+      "defaultValue": "collection.json"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
